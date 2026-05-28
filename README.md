@@ -98,3 +98,11 @@ Team Lead로서 plan.md의 Task를 한 번에 하나씩 직접 구현합니다. 
 ### 6. Compound (`/compound`)
 
 `decisions.md`에 누적된 판단을 읽어 반복된 패턴을 감지하고, Skill/Hook/Rule/CLAUDE.md로 승격할 후보를 제안합니다. 사용자 승인(Ask-first) 후에만 적용합니다.
+
+## 기여하기
+
+이슈와 PR을 환영합니다. 기여 전에 아래 절차를 따라주세요.
+
+1. `main` 브랜치에서 feature 브랜치를 생성합니다
+2. 변경 사항을 커밋합니다 (`feat: 설명`, `fix: 설명` 등 Conventional Commits 형식)
+3. Pull Request를 열고 변경 내용을 설명합니다
