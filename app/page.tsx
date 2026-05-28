@@ -12,6 +12,12 @@ export default function Page() {
           시작점에 오신 걸 환영합니다. 함께라면 더 즐겁고 단단한 코드를 만들 수
           있어요.
         </p>
+        <a
+          href="https://github.com"
+          className="inline-block mt-8 px-6 py-3 rounded-lg bg-primary text-primary-foreground font-medium hover:opacity-90 transition-opacity"
+        >
+          시작하기 →
+        </a>
       </section>
       <ComponentExample />
     </main>
