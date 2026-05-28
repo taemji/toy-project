@@ -2,6 +2,10 @@
 
 Next.js 16 + React 19 프로젝트 템플릿
 
+## 프로젝트 개요
+
+이 템플릿은 **Claude Code 하네스** 기반의 Spec-Driven Development(SDD) 워크플로우를 적용하여 Next.js 앱을 AI 보조 개발 방식으로 빌드하기 위한 출발점입니다. 아이디어에서 배포까지 **Ideate → Define → Sketch → Plan → Build → Compound** 여섯 단계로 구성된 명확한 개발 흐름을 제공하며, 각 단계마다 사람이 검토하는 게이트가 있어 품질을 보장합니다. `artifacts/<feature>/spec.md`가 각 feature의 단일 불변 계약 역할을 하고, 테스트는 spec의 Success Criteria에서 파생됩니다. shadcn/ui, Tailwind CSS 4, Vitest, Playwright 등 현대적인 프론트엔드 스택이 미리 구성되어 있습니다.
+
 ## 기술 스택
 
 - **Framework**: Next.js 16 (App Router)
