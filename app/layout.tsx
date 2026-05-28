@@ -9,8 +9,8 @@ const robotoHeading = Roboto({subsets:['latin'],variable:'--font-heading'});
 const dmSans = DM_Sans({subsets:['latin'],variable:'--font-sans'});
 
 export const metadata: Metadata = {
-  title: "Kanban Todo",
-  description: "Kanban board application",
+  title: "Harness Template",
+  description: "Claude Code + SDD 워크플로우로 Next.js 앱을 빠르게 만드는 시작점",
 };
 
 export default function RootLayout({
