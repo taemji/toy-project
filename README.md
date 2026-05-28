@@ -2,6 +2,10 @@
 
 Next.js 16 + React 19 프로젝트 템플릿
 
+## 프로젝트 개요
+
+이 프로젝트는 Next.js 16 App Router와 React 19를 기반으로 한 프론트엔드 스타터 템플릿입니다. Spec-Driven Development 워크플로우(Ideate → Specify → Sketch → Plan → Build → Compound)를 내장한 Claude Code 하네스를 통해 AI 보조 개발 사이클을 체계적으로 운영할 수 있습니다. shadcn/ui, Tailwind CSS 4, Vitest, Playwright 등 현대적인 도구 스택이 사전 구성되어 있어 즉시 개발을 시작할 수 있습니다.
+
 ## 기술 스택
 
 - **Framework**: Next.js 16 (App Router)
