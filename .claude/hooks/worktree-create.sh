@@ -3,7 +3,7 @@ set -e
 
 # Read worktree name from stdin (JSON: {"name": "..."})
 INPUT=$(cat)
-NAME=$(echo "$INPUT" | jq -r '.name')
+NAME=$(echo "$INPUT" | sed 's/.*"name"[[:space:]]*:[[:space:]]*"\([^"]*\)".*/\1/')
 PROJECT_ROOT="$(git rev-parse --show-toplevel)"
 WORKTREE_PATH="$PROJECT_ROOT/.claude/worktrees/$NAME"
 
